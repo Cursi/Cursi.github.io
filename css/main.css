@@ -1,0 +1,36 @@
+body,html
+{
+	margin:0;
+	padding:0;
+}
+
+body
+{
+	background-color: rgba(0,0,0,0.05);
+	overflow:hidden;
+	font-family: 'Nunito Sans', sans-serif;
+	letter-spacing:2px;
+}
+
+#big
+{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translate(0, -55%);
+  transform: translate(0, -55%);
+}
+
+.center_beautiful
+{
+	margin-left:5%;
+	font-size: 1.5em;
+	width:90%;
+	text-align:center;
+}
+
+#info
+{
+	color:rgba(0,0,0,0.6);
+	font-size:2.5em;
+}
