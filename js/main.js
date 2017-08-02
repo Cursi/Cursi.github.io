@@ -7,7 +7,7 @@ $( document ).ready(function()
 	for (var i = 0; i < str.length; i++) 
 	{
 		if (str[i] == 'A')  newText+= str.charAt(i).fontcolor("#3399ff");
-		else 				newText+= str.charAt(i).fontcolor("#ff704d");
+		else newText+= str.charAt(i).fontcolor("#ff704d");
     }
     
 	container.innerHTML = newText; 
