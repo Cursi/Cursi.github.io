@@ -1,0 +1,108 @@
+body,html
+{
+	margin:0;
+}
+
+body
+{
+	overflow:hidden;
+	font-family: 'Roboto', sans-serif;
+	background-color:rgba(0,0,0,0.05);
+}
+
+.noselect 
+{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#attention
+{
+	position:absolute;
+	opacity:0;
+	top:-50%;
+	letter-spacing:30px;
+	width:100%;
+	font-size:3em;
+	text-align:center;
+	transition: all 0.5s ease-in;
+}
+
+#attention.active
+{
+	letter-spacing:1px;
+	opacity:1;
+	top:50%;
+	transform:translate(0,-27px);
+	transition: all 0.5s ease-out;
+}
+
+#haha
+{
+	font-size:1.1em;
+	position:fixed;
+	bottom:0;
+	right:0;
+	color:white;
+	margin:5px;
+}
+
+@media (min-width: 1921px)
+{
+	body
+	{
+		font-size:1.2em;
+	}
+}
+
+@media (min-width:1300px) and (max-width: 1919px)
+{
+	body
+	{
+		zoom: 95%;
+	}
+}
+
+@media (min-width:1139px) and (max-width: 1300px)
+{
+	body
+	{
+		zoom: 75%;
+	}
+}
+
+@media (min-width:970px) and (max-width: 1140px)
+{
+	body
+	{
+		zoom: 65%;
+	}
+}
+
+@media (min-width:810px) and (max-width: 969px)
+{
+	body
+	{
+		zoom: 55%;
+	}
+}
+
+@media (min-width:601px) and (max-width: 809px)
+{
+	body
+	{
+		zoom: 35%;
+	}
+}
+
+@media (min-width:1px) and (max-width:600px)
+{
+	body
+	{
+		zoom:25%;
+	}
+}
